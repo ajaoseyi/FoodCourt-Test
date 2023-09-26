@@ -12,7 +12,7 @@ import { RequestLoggerMiddleware } from './shared/middleware/request-logger.midd
 
 @Module({
   imports: [
-    ConfigModule.forRoot({ isGlobal: true }),
+    ConfigModule.forRoot({ isGlobal: true, envFilePath: ['.env'] }),
     APIModule,
     DatabaseModule,
   ],

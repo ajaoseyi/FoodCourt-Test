@@ -8,8 +8,7 @@ import PasswordHash from '../../shared/hash/password.hash';
   imports: [
     JwtModule.register({
       global: true,
-      secret:
-        '7f3d8e25a6d19c8b3fb9d8e7a4f0d1c5bc41d7f86e2a95c0f9b3a7e5c0f1d9e27f8e2a9c0f1d9e2b0c3a6e8d5f1',
+      secret: process.env.JWT_SECRET,
       signOptions: { expiresIn: '1d' },
     }),
   ],

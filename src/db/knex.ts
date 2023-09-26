@@ -1,8 +1,8 @@
 import * as path from 'path';
 import * as Dotenv from 'dotenv';
-Dotenv.config({ path: '../../.env' });
+Dotenv.config({ path: '.env' });
 //print process.env.NODE_ENV
-console.log(process.env.PG_DB);
+console.log('process.env.NODE_ENV', process.env.PG_PORT);
 module.exports = {
   development: {
     client: 'postgresql',
