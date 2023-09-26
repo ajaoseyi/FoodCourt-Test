@@ -20,7 +20,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git@github.com:emmadedayo/FoodCourt-Test.git
    ``````
 2. Install project dependencies:
    ```bash
@@ -60,9 +60,12 @@ The application will be accessible at `http://localhost:3000`.
 
 To interact with the endpoints and understand how to use the application, refer to our Postman documentation:
 
-[![Postman Documentation](https://img.shields.io/badge/Postman-Documentation-FF6C37?style=flat-square&logo=postman&logoColor=white)](https://www.postman.com/your-postman-documentation-link)
+[![Postman Documentation](https://img.shields.io/badge/Postman-Documentation-FF6C37?style=flat-square&logo=postman&logoColor=white)](https://documenter.getpostman.com/view/3080167/2s9YJXaRBj)
 
 Our Postman documentation provides detailed information on available endpoints, request payloads, and response formats. You can use Postman to test and experiment with the order processing system.
+
+For detailed information and instructions related to Question two, please check our [Google Docs Document](https://docs.google.com/document/d/e/2PACX-1vSEaaNh18dABV0P628jelPJxnLD0UCV4BgRCU-V-nngO_coZBSKBrhLnUoR-NAsRWrNe9v3ljX5/pub).
+
 
 If you have any questions or encounter any issues while using the API, please refer to the documentation first. If the issue persists, feel free to contact us for assistance.
 
